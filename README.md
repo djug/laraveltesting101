@@ -8,8 +8,8 @@ You can also read the free articles I publish regarding this ebook at https://yo
 -   Clone this repo: `git clone https://github.com/djug/laraveltesting101.git`
 -   `cd laraveltesting101/`
 -   Install the dependencies: `composer install`
--   Create a new database and create/update your `.env` file accordingly
--   run the migrations `php artisan migrate`
+-   Create a new database and create/update your `.env` file accordingly. You can copy the `.env.example` file (`cp .env.example .env`)
+-   run the migrations `php artisan migrate` and the seeders `php artisan db:seed`
 -   generate an encryption key `php artisan key:generate`
 -   Lunch the built-in PHP webserver `php artisan serve`
 -   Visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to see the demo homepage
